@@ -1,17 +1,17 @@
-House Price Prediction
+# House Price Prediction
 
-Overview
+## Overview
 
 This project focuses on predicting house prices using Machine Learning techniques. The dataset was analyzed, cleaned, and preprocessed before training different regression models. The performance of the models was evaluated using standard regression metrics.
 
-Dataset
+## Dataset
 
 - Dataset: Housing.csv
 - Total Records: 545
 - Target Variable: "price"
 - Features: Area, Bedrooms, Bathrooms, Stories, Parking, Air Conditioning, and other house-related attributes.
 
-Project Tasks
+## Project Tasks
 
 1. Data Loading & Exploration
 
@@ -35,13 +35,13 @@ Two regression models were trained:
 
 4. Model Evaluation
 
-Metrics Used:
+## Metrics Used:
 
 - Mean Absolute Error (MAE)
 - Root Mean Squared Error (RMSE)
 - R² Score
 
-Results:
+## Results:
 
 Model| R² Score
 Linear Regression| 0.653
@@ -57,7 +57,7 @@ The following visualizations were created:
 - Correlation Heatmap
 - Actual vs Predicted Price Scatter Plot
 
-Technologies Used
+## Technologies Used
 
 - Python 3
 - Pandas
@@ -67,7 +67,7 @@ Technologies Used
 - Seaborn
 - Jupyter Notebook
 
-Project Structure
+## Project Structure
 
 HousePricePrediction_Sumit/
 │
@@ -81,7 +81,7 @@ HousePricePrediction_Sumit/
 ├── requirements.txt
 └── README.md
 
-Learning Outcomes
+## Learning Outcomes
 
 Through this project, I gained practical experience in:
 
