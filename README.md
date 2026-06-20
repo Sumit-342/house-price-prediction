@@ -67,19 +67,25 @@ The following visualizations were created:
 - Seaborn
 - Jupyter Notebook
 
-## Project Structure
 
+### Project Structure
+
+```text
 HousePricePrediction_Sumit/
 │
+├── charts/
+│   ├── actual_vs_predicted_prices.png
+│   ├── correlation_heatmap.png
+│   └── house_price_distribution.png
+│
+├── .gitignore
 ├── analysis.ipynb
 ├── Housing.csv
-├── summary.pdf
-├── charts/
-│   ├── house_price_distribution.png
-│   ├── correlation_heatmap.png
-│   └── actual_vs_predicted_prices.png
+├── README.md
 ├── requirements.txt
-└── README.md
+└── summary.pdf
+```
+
 
 ## Learning Outcomes
 
